@@ -13,6 +13,6 @@ function changeLanguage(lang) {
 }
 
 document.addEventListener('DOMContentLoaded', () => {
-    const preferredLanguage = localStorage.getItem('preferredLanguage') || 'zh';
+    const preferredLanguage = localStorage.getItem('preferredLanguage') || 'en';
     changeLanguage(preferredLanguage);
 });
