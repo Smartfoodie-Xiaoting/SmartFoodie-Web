@@ -1,11 +1,11 @@
-<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Us - Smart Foodie GmbH</title>
+    <title data-lang-zh="关于我们 - Smart Foodie GmbH" data-lang-en="About Us - Smart Foodie GmbH" data-lang-de="Über uns - Smart Foodie GmbH">关于我们 - Smart Foodie GmbH</title>
     <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
@@ -14,68 +14,40 @@
                 <img src="logo/sf/SF.jpg" alt="Smart Foodie GmbH Logo" class="logo">
             </a>
             <div class="nav-links">
-                <a href="index.html">Home</a>
-                <a href="about.html">Our Products</a>
-                <a href="services.html">Our Services</a>
-                <a href="team.html">Meet the Team</a>
-                <a href="contact.html">Contact Us</a>
+                <a href="index.html" data-lang-zh="首页" data-lang-en="Home" data-lang-de="Startseite">首页</a>
+                <a href="about.html" data-lang-zh="关于我们" data-lang-en="About Us" data-lang-de="Über uns">关于我们</a>
+                <a href="services.html" data-lang-zh="我们的服务" data-lang-en="Our Services" data-lang-de="Unsere Dienstleistungen">我们的服务</a>
+                <a href="team.html" data-lang-zh="团队介绍" data-lang-en="Meet the Team" data-lang-de="Unser Team">团队介绍</a>
+                <a href="contact.html" data-lang-zh="联系我们" data-lang-en="Contact Us" data-lang-de="Kontakt">联系我们</a>
+            </div>
+            <div class="language-switcher">
+                <button onclick="changeLanguage('zh')">中文</button>
+                <button onclick="changeLanguage('en')">English</button>
+                <button onclick="changeLanguage('de')">Deutsch</button>
             </div>
         </nav>
-        <h1>SmartFoodie GmbH</h1>
-        <p>Your partner for smart food solutions in Germany.</p>
     </header>
 
-    <div class="container">
-        
-        <section>
-            <h2>About Us</h2>
-            <p>Welcome to SmartFoodie GmbH, we focus on innovative and sustainable food solutions. Our mission is to provide convenient and healthy eating for students and working people.</p>
+    <main class="container">
+        <section class="hero">
+            <h1 data-lang-zh="关于我们" data-lang-en="About Us" data-lang-de="Über uns">关于我们</h1>
+            <p class="tagline" data-lang-zh="了解 SmartFoodie GmbH 的故事" data-lang-en="Learn about SmartFoodie GmbH's story" data-lang-de="Erfahren Sie die Geschichte von SmartFoodie GmbH">了解 SmartFoodie GmbH 的故事</p>
         </section>
-        
-        <footer>
-            <p>&copy; 2024 SmartFoodie GmbH. All rights reserved.</p>
-        </footer>
-    </div>
-</body>
-</html>
-=======
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Us - Smart Foodie GmbH</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <header>
-        <nav class="navbar">
-            <a href="index.html" class="logo-link">
-                <img src="logo/sf/SF.jpg" alt="Smart Foodie GmbH Logo" class="logo">
-            </a>
-            <div class="nav-links">
-                <a href="index.html">Home</a>
-                <a href="about.html">Our Products</a>
-                <a href="services.html">Our Services</a>
-                <a href="team.html">Meet the Team</a>
-                <a href="contact.html">Contact Us</a>
-            </div>
-        </nav>
-        <h1>SmartFoodie GmbH</h1>
-        <p>Your partner for smart food solutions in Germany.</p>
-    </header>
 
-    <div class="container">
-        
-        <section>
-            <h2>About Us</h2>
-            <p>Welcome to SmartFoodie GmbH, we focus on innovative and sustainable food solutions. Our mission is to provide convenient and healthy eating for students and working people.</p>
+        <section class="about-section">
+            <h2 data-lang-zh="我们的使命" data-lang-en="Our Mission" data-lang-de="Unsere Mission">我们的使命</h2>
+            <p data-lang-zh="欢迎来到 SmartFoodie GmbH，我们专注于创新和可持续的食品解决方案。我们的使命是为学生、上班族以及没有足够时间吃饭的人提供便捷健康的饮食选择。" 
+               data-lang-en="Welcome to SmartFoodie GmbH, where we focus on innovative and sustainable food solutions. Our mission is to provide convenient and healthy eating options for students, working professionals, and those who don't have enough time to eat." 
+               data-lang-de="Willkommen bei SmartFoodie GmbH, wo wir uns auf innovative und nachhaltige Lebensmittellösungen konzentrieren. Unsere Mission ist es, bequeme und gesunde Essensmöglichkeiten für Studenten, Berufstätige und Menschen anzubieten, die nicht genug Zeit zum Essen haben.">
+                欢迎来到 SmartFoodie GmbH，我们专注于创新和可持续的食品解决方案。我们的使命是为学生、上班族以及没有足够时间吃饭的人提供便捷健康的饮食选择。
+            </p>
         </section>
-        
-        <footer>
-            <p>&copy; 2024 SmartFoodie GmbH. All rights reserved.</p>
-        </footer>
-    </div>
+    </main>
+
+    <footer>
+        <p data-lang-zh="&copy; 2024 SmartFoodie GmbH. 保留所有权利。" data-lang-en="&copy; 2024 SmartFoodie GmbH. All rights reserved." data-lang-de="&copy; 2024 SmartFoodie GmbH. Alle Rechte vorbehalten.">&copy; 2024 SmartFoodie GmbH. 保留所有权利。</p>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
->>>>>>> 8eecd0f3ccb8f1d23c9defe9018cf44ea75bfc0a
