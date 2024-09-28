@@ -98,9 +98,9 @@ header {
 }
 
 .about-image1 {
-    width: "=%;
+    width: 30%;
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    box-shadow: 0 4px 8px orange;
     transition: transform 0.3s ease;
 }
 
@@ -108,6 +108,9 @@ header {
     transform: scale(1.05);
 }
 
+.about-image1:hover {
+    transform: scale(1.05);
+}
 .about-section, .contact-section {
     background-color: white;
     padding: 50px;
