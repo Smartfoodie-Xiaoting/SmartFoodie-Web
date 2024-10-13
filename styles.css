@@ -97,10 +97,20 @@ header {
     transition: transform 0.3s ease;
 }
 
+.about-image1 {
+    width: 30%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px orange;
+    transition: transform 0.3s ease;
+}
+
 .about-image:hover {
     transform: scale(1.05);
 }
 
+.about-image1:hover {
+    transform: scale(1.05);
+}
 .about-section, .contact-section {
     background-color: white;
     padding: 50px;
@@ -174,7 +184,7 @@ footer {
     }
     
     .about-image {
-        width: 100%;
+        width: 90%;
         margin-bottom: 20px;
     }
 }
