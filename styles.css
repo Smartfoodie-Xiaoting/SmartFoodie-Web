@@ -267,3 +267,7 @@ footer {
     color: #888;
     margin-bottom: 10px;
 }
+
+.features-cards {
+    margin-bottom: 40px; /* Adjust this value to set the desired spacing */
+}
