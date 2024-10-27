@@ -276,3 +276,9 @@ footer {
     height: auto; /* Maintain the aspect ratio */
     margin: 20px 0; /* Add some spacing around the image */
 }
+.qr-container {
+    display: flex;
+    align-items: center; /* Vertically center-align the items */
+    gap: 20px; /* Space between the image and the text */
+    margin: 20px 0; /* Add some space around the container */
+}
